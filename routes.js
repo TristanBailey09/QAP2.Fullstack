@@ -49,11 +49,11 @@ function displayFile(path, response) {
   });
 }
 module.exports = {
+  indexPage,
   tarkovPage,
-  gunsPage,
+  wipePage,
   mapsPage,
+  gunsPage,
   ammoPage,
   fourPage,
-  wipePage,
-  indexPage,
 };
