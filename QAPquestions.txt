@@ -1,0 +1,9 @@
+1. This QAP took me about 7 hours to complete, i had a lot of hicups with getting the html page to show on localhost but after watching the lectures back i got it to work! 
+
+2. I used the recorded lectures for all my infomation when i was stuck or didnt know what to do.
+
+3. No, i found the recorded lectures extremely useful
+
+4. No
+
+5. I would rate this QAP a 6/10 mainly cause i had alot of trouble with certain parts like the event emitter, but i got a hang of it and got it done. I would say with confindence in the future if i had to do something with the same techniques I would feel more confindint after finishing this QAP 
