@@ -1,21 +1,21 @@
 const http = require("http");
 
 const routes = require("./routes.js");
-global.DEBUG = false;
+global.DEBUG = true;
 
 const server = http.createServer((request, response) => {
   if (DEBUG) console.log(request.url, request.method);
-  let path = "/views/";
+  let path = "views";
   switch (request.url) {
     case "/":
       path += "index.html";
       response.statusCode = 200;
-      routes.indexPage;
+      routes.indexPage(path, response);
       break;
     case "/tarkov":
       path += "tarkov.html";
       response.statusCode = 200;
-      routes.tarkovPage;
+      routes.tarkovPage(path, response);
       break;
     case "/maps":
       path += "maps.html";
